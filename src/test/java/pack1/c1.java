@@ -17,6 +17,7 @@ public class c1 {
 		driver.get("https://www.seleniumhq.org/");
 		System.out.println(driver.getTitle());
 		System.out.println(driver.getCurrentUrl()); 
+		System.out.println("HI");
 		driver.close();
 		
 	}
